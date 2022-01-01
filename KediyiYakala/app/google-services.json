@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041140858023",
+    "project_id": "kediyi-yakala-f6d65",
+    "storage_bucket": "kediyi-yakala-f6d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041140858023:android:6abd0fe0f04aa7b3a82f82",
+        "android_client_info": {
+          "package_name": "com.rk.kediyiyakala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041140858023-p4k0gjf5746jm6crvimff041dve9gh3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRWhQM9pUTCJ6sQatPSC4k_7UXGBLA-pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041140858023-p4k0gjf5746jm6crvimff041dve9gh3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

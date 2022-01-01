@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkaplan" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:background="#70ffffff"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F4F1F1"
+            android:fontFamily="@font/architects_daughter"
+            android:text="MENU"
+            android:textAlignment="center"
+            android:textColor="#F8F8F8"
+            android:textSize="48sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/oyunStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC107"
+            android:backgroundTintMode="add"
+            android:onClick="oyunStart"
+            android:padding="5dp"
+            android:text="Oyuna Başla"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:iconPadding="8dp" />
+
+        <Button
+            android:id="@+id/nasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC107"
+            android:backgroundTintMode="add"
+            android:onClick="nasil"
+            android:padding="5dp"
+            android:text="Nasıl Oynanır?"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:iconPadding="8dp" />
+
+        <Button
+            android:id="@+id/yuksekSkor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC107"
+            android:backgroundTintMode="add"
+            android:padding="5dp"
+            android:text="Yüksek Skor"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:iconPadding="8dp" />
+
+        <Button
+            android:id="@+id/puanver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC107"
+            android:backgroundTintMode="add"
+            android:onClick="puanver"
+            android:padding="5dp"
+            android:text="Bize Puan Ver"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:iconPadding="8dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
